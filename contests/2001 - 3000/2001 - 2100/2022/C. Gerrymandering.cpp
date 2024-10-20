@@ -45,6 +45,7 @@ void solve() {
             }
         }
     }
+    
     std::cout << dp[col][0] << std::endl;
 }
 
@@ -56,5 +57,4 @@ signed main() {
     int t; std::cin >> t; while(t--) solve();
     return 0;
 }
-
 // g++ -std=c++20 <filename>.cpp
